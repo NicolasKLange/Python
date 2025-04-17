@@ -46,3 +46,5 @@ for linha in lista_texto:
 
 # Exibindo valor do faturamento
 print(f"Faturamento: {faturamento}")
+# cd "C:\Users\Nicolas Lange\Documents\Python\AutomatizandoFaturamentoEmpresa"
+# python faturamentoEmpresa.py
