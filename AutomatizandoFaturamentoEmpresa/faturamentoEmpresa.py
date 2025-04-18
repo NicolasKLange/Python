@@ -14,6 +14,7 @@ with open("vendasLoja.txt", "r") as arquivo:
 # Vira uma lista de valores onde cada item é uma linha
 lista_texto = (texto.split("\n"))
 
+
 # Inicializando o faturamento com o valor 0
 faturamento = 0
 
@@ -31,7 +32,7 @@ for linha in lista_texto:
     # ou seja, na linha é a posição do ; mais 1
     # Float -> Transforma String em numero decimal
     # .strip() - > Remove espaços em branco ou \n extras.
-    valor_string = linha[posicao_pv+2:].strip()
+    valor_string = linha[posicao_pv+1:].strip()
 
     # Try Catch, verifica se tem algum valor inválido
     try:
